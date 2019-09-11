@@ -6,13 +6,16 @@ void main(){
 	int A;
 	int B;
 	int C;
+	int D;
 	
 	printf("Select A");
 	scanf("%d", &A);
 	printf("Select B");
 	scanf("%d", &B);
-	C=A+B;
-	printf("The result is %d", C);
+	printf("Select C");
+	scanf("%d", &C);
+	D=A+B+C;
+	printf("The result is %d", D);
 	
 
 }
